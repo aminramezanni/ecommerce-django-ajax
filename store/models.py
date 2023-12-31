@@ -72,5 +72,14 @@ class ShippingAddress(models.Model):
     zipcode = models.CharField(max_length=200, null=False)
     date_added = models.DateTimeField(auto_now_add=True)
 
+    @property
+    def shipping(self):
+        shipping = False
+        orderitems = self.orderitem_set.all()
+        for i in orderitems:
+            if i.product.digital == False:
+                shipping = True
+        return shipping
+
     def __str__(self):
         return self.address
