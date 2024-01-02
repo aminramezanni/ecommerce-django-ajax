@@ -1,4 +1,4 @@
-# Ecommerce
+# Django Ecommerce
 
 Ecommerce is a Django with Ajax project that provides a feature-rich Ecommerce website.This project will be a fully functional eCommerece website with user and guest checkout capabilities.
 
@@ -20,13 +20,13 @@ Ecommerce is a Django with Ajax project that provides a feature-rich Ecommerce w
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/aminramezanni/django-project-chatroom.git
+    git clone https://github.com/aminramezanni/ecommerce-django-ajax.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd django-project-chatroom
+    cd ecommerce-django-ajax
     ```
 
 3. Install dependencies:
